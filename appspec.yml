@@ -5,7 +5,7 @@ Resources:
       Properties:
         TaskDefinition: "arn:aws:ecs:us-east-1:235494800327:task-definition/dva-ecs-web-app:1"
         LoadBalancerInfo:
-            ContainerName: "d-ecr-blue-green-app"
+            ContainerName: "web-app"
             ContainerPort: 80
         PlatformVersion: "LATEST"
 
